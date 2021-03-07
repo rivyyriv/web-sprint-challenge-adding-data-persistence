@@ -4,7 +4,8 @@
   "description": "Data Persistence Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=testing jest --watch --verbose --runInBand --silent"
+    "test": "cross-env NODE_ENV=testing jest --watch --verbose --runInBand --silent",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "keywords": [],
   "author": "",
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.95.1",
     "sqlite3": "^5.0.2"
   }
